@@ -94,9 +94,9 @@ prompt_gentoo_setup () {
 
 	if [ "$USER" = 'root' ]
 	then
-		base_prompt="%B%F{$prompt_gentoo_root}%m%k "
+		base_prompt="%B%F{$prompt_gentoo_root}%m:%k "
 	else
-		base_prompt="%B%F{$prompt_gentoo_user}%n@%m%k "
+		base_prompt="%B%F{$prompt_gentoo_user}%n@%m:%k "
 	fi
 	post_prompt="%b%f%k"
 
