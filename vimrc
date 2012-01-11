@@ -1,5 +1,7 @@
 ""Felipe Garay vim conf file""
 
+"{{{Opciones basicas
+
 "Queremos usar Vim
 set nocompatible
 
@@ -42,9 +44,17 @@ set guioptions-=L
 ":au WinEnter * :setlocal number
 ":au WinLeave * :setlocal nonumber
 
+"Navegacion facil entre buffers
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 
 "Tratamos de mantener 80 caracteres maximo
 set textwidth=80
+
+"}}}
 
 
 "{{{En la gui usamos zenburn, en la terminal el por defecto no mas
