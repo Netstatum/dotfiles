@@ -54,6 +54,10 @@
 	"Tratamos de mantener 80 caracteres maximo
 	set textwidth=80
 
+	"Opciones de completado
+	"Ignora los siguientes archivos
+	set wildignore=*.o,*.obj,*~,*.hi,*.pyc
+
 "}}}
 
 
