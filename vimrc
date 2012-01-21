@@ -66,7 +66,8 @@
 		colorscheme zenburn
 	else
 		set background=dark
-		colorscheme default
+		colorscheme desert
+		syntax reset
 	endif
 "}}}
 
