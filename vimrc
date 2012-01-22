@@ -56,7 +56,7 @@
 
 	"Opciones de completado
 	"Ignora los siguientes archivos
-	set wildignore=*.o,*.obj,*~,*.hi,*.pyc
+	set wildignore=*.o,*.obj,*~,*.hi,*.pyc,*.class
 
 "}}}
 
@@ -164,7 +164,7 @@ set statusline=
 	call pathogen#infect() 
 
 	"nerdtree
-	let NERDTreeIgnore=['\~$', '\.pyc$', '\.o$', '\.out$', '\.hi$'] "Procesos de compilacion
+	let NERDTreeIgnore=['\~$', '\.pyc$', '\.o$', '\.out$', '\.hi$', '\.class$'] "Procesos de compilacion
 	let NERDTreeIgnore+=['\.png$', '\.jpg$', '\.gif$']  "Imagenes
 	let NERDTreeIgnore+=['\.pid$', '__.py$', 'tags'] "otros
 
