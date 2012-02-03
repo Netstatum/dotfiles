@@ -25,6 +25,9 @@
 	"Sin beeps en los errores
 	set noerrorbells
 
+	"Recargamos los archivos si han sido modificados en el disco
+	set autoread
+
 	"cuando cambiamos de buffer nos deja cambiar sin guardar
 	set hidden
 
@@ -166,7 +169,7 @@ set statusline=
 	"nerdtree
 	let NERDTreeIgnore=['\~$', '\.pyc$', '\.o$', '\.out$', '\.hi$', '\.class$'] "Procesos de compilacion
 	let NERDTreeIgnore+=['\.png$', '\.jpg$', '\.gif$']  "Imagenes
-	let NERDTreeIgnore+=['\.pid$', '__.py$', 'tags'] "otros
+	let NERDTreeIgnore+=['\.pid$', '__.py$', 'tags', '\.form$'] "otros
 
 	"LaTexSuite alias Vim-LaTeX
 	let g:Tex_DefaultTargetFormat='pdf'
