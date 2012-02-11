@@ -117,7 +117,7 @@ set ofu=syntaxcomplete#Complete
 	nmap gt :tabn<CR>
 	nmap gT :tabp<CR>
 
-	imap jk <Esc> 
+	inoremap jj <Esc> 
 
 "}}}
 
