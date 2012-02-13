@@ -115,8 +115,13 @@ prompt_gentoo_setup "$@"
 
 #{{{ ALIAS
 
+#youtube-dl
 alias youtube_baja='youtube-dl -t -f 5 -c'
 alias youtube_normal='youtube-dl -f 34 -t -c'
+
+#git
+alias push='git push origin master'
+alias push='git pull origin master'
 
 #}}}
 
