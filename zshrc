@@ -123,5 +123,8 @@ alias youtube_normal='youtube-dl -f 34 -t -c'
 alias push='git push origin master'
 alias push='git pull origin master'
 
+#comandos
+alias grep='grep --color=auto'
+
 #}}}
 
