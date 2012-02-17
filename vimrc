@@ -143,8 +143,8 @@ set makeprg=scons
 
 
 "{{{ Archivos de vim
-	set backup " backups are nice ...
-	set backupdir=$HOME/.vim/backup// " but not when they clog .
+	set nobackup "No quiero backups ahora
+	set swapfile
 	set directory=$HOME/.vim/swap// " Same for swap files
 	set viewdir=$HOME/.vim/views// " same for view files
 "}}}
