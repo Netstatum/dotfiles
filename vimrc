@@ -61,6 +61,9 @@
 	"Ignora los siguientes archivos
 	set wildignore=*.o,*.obj,*~,*.hi,*.pyc,*.class
 
+
+	"Utilizamos la coma ',' como leader
+	let mapleader = ","
 "}}}
 
 
