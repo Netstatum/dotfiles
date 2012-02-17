@@ -66,7 +66,8 @@
 
 "{{{En la gui usamos zenburn, en la terminal el por defecto no mas
 	if has("gui_running")
-		colorscheme zenburn
+		"colorscheme zenburn
+		colorscheme molokai
 	else
 		set background=dark
 		colorscheme desert
@@ -149,7 +150,7 @@ set makeprg=scons
 "}}}
 
 ""STATUSLINE
-set statusline=
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 
 "{{{ persistent undo
