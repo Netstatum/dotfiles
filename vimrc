@@ -60,6 +60,9 @@
 	"Opciones de completado
 	"Ignora los siguientes archivos
 	set wildignore=*.o,*.obj,*~,*.hi,*.pyc,*.class
+	
+	"Menu que muestra las posibilidades al usar tab al completar
+	set wildmenu
 
 "}}}
 
